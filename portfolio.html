@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -12,98 +18,100 @@
       <!--Навигация-->
       <nav class="header-nav">
         <!--Логотип-->
-        <a href="" class="logo" lang="en"><span class="logo-web">Web</span>Studio</a>
-        <ul class="header-lists">
+        <a href="" class="logo link" lang="en"><span class="logo-web">Web</span>Studio</a>
+        <ul class="header-lists lists">
           <li class="header-item">
-            <a class="header-item-link" href="./index.html">Студия</a>
+            <a class="header-item-link link" href="./index.html">Студия</a>
           </li>
           <li class="header-item">
-            <a class="header-item-link" href="./portfolio.html">Портфолио</a>
+            <a class="header-item-link link current" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="header-item">
-            <a class="header-item-link" href="">Контакты</a>
+            <a class="header-item-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
       <!--Контакты-->
-      <ul class="header-contact-lists">
+      <ul class="header-contact-lists lists">
         <li class="header-cotact-item">
-          <a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="header-contact-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li class="header-contact-item">
-          <a class="header-conntact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="header-conntact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
-    <main>
+    <main class="portfolio-main">
       <!-- Заголовок будет скрыт -->
       <h1>Наши работы</h1>
-      <ul>
-        <li><button type="button">Все</button></li>
-        <li><button type="button">Веб-сайты</button></li>
-        <li><button type="button">Приложения</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+      <ul class="btn-lists lists">
+        <li><button class="btn" type="button">Все</button></li>
+        <li><button class="btn" type="button">Веб-сайты</button></li>
+        <li><button class="btn" type="button">Приложения</button></li>
+        <li><button class="btn" type="button">Дизайн</button></li>
+        <li><button class="btn" type="button">Маркетинг</button></li>
       </ul>
-      <ul>
-        <li>
-          <a href="">
+      <ul class="portfolio-lists lists">
+        <li class="portfolio-item">
+          <a class="portfolio-link link" href="">
             <img src="./images/technokryak.jpg" alt="Технокряк сайт" />
             <h2>Технокряк</h2>
           </a>
           <p>Веб-сайт</p>
         </li>
-        <li>
-          <a href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link link" href="">
             <img src="./images/new-orlean.jpg" alt="Дизайн постера" />
             <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
           </a>
           <p>Дизайн</p>
         </li>
-        <li>
-          <a href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link link" href="">
             <img src="./images/seafood.jpg" alt="Приложение ресторана" />
             <h2>Ресторан <span lang="en">Seafood</span></h2>
           </a>
           <p>Приложение</p>
         </li>
-        <li>
-          <a href=""
+        <li class="portfolio-item">
+          <a class="portfolio-link link" href=""
             ><img src="./images/prime.jpg" alt="Проект Прайм" />
             <h2>Проект <span lang="en">Prime</span></h2></a
           >
           <p>Маркетинг</p>
         </li>
-        <li>
-          <a href=""
+        <li class="portfolio-item">
+          <a class="portfolio-link link" href=""
             ><img src="./images/boxes.jpg" alt="Проект бокс" />
             <h2>Проект <span>Boxes</span></h2>
           </a>
           <p>Приложение</p>
         </li>
-        <li>
-          <a href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link link" href="">
             <img src="./images/borders.jpg" alt="Сайт вдохновение без границ" />
             <h2 lang="en">Inspiration has no Borders</h2>
           </a>
           <p>Веб-сайт</p>
         </li>
-        <li>
-          <a href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link link" href="">
             <img src="./images/edition.jpg" alt="Дизайн издания" />
             <h2>Издание <span lang="en">Limited Edition</span></h2>
           </a>
           <p>Дизайн</p>
         </li>
-        <li>
-          <a href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link link" href="">
             <img src="./images/lab.jpg" alt="Проект лаб" />
             <h2>Проект LAB</h2>
           </a>
           <p>Маркетинг</p>
         </li>
-        <li>
-          <a href="">
+        <li class="portfolio-item">
+          <a class="portfolio-link link" href="">
             <img src="./images/growing.jpg" alt="Проект растущий бизнес" />
             <h2 lang="en">Growing Business</h2>
           </a>
@@ -126,15 +134,6 @@
           </li>
         </ul>
       </address>
-      <div class="footer-call">
-        <p class="footer-call-text"><b>Присоединяйтесь</b></p>
-        <ul class="footer-lists">
-          <li class="footer-item"><a class="footer-link" href="">Instagram</a></li>
-          <li class="footer-item"><a class="footer-link" href="">Twitter</a></li>
-          <li class="footer-item"><a class="footer-link" href="">Facebook</a></li>
-          <li class="footer-item"><a class="footer-link" href="">Linkedin</a></li>
-        </ul>
-      </div>
     </footer>
   </body>
 </html>

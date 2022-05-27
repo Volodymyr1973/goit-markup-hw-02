@@ -1,0 +1,88 @@
+/* -----Глобальные----- */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #e5e5e5;
+  --main-font: 'Roboto' sans-serif;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--primary-text-color);
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.lists {
+  list-style: none;
+}
+
+/* -----Header----- */
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-nav {
+}
+
+/* -----Logo----- */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo-web:hover {
+  color: var(--accent-color);
+}
+
+.logo:focus,
+.logo-web:focus {
+  color: var(--accent-color);
+}
+
+.header-lists {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.header-item {
+}
+.header-item-link:hover {
+  color: var(--accent-color);
+}
+
+.header-contact-lists {
+}
+.header-contact-item {
+}
+.header-contact-link {
+}
