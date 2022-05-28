@@ -82,7 +82,8 @@ ul {
   color: var(--accent-color);
 }
 
-.header-item-link:hover {
+.header-item-link:hover,
+.header-item-link:focus {
   color: var(--accent-color);
 }
 
@@ -191,9 +192,9 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.projects-link:hover,
-.prijects-link:focus {
-  background-color: var(--accent-color);
+.projects-photo:hover,
+.projects-link:focus {
+  border: 5px solid var(--accent-color);
 }
 
 /* -----Наша команда----- */
@@ -311,7 +312,8 @@ ul {
   border: 1px solid #eeeeee;
 }
 
-.portfolio-item:hover {
+.portfolio-item:hover,
+.portfolio-item:focus-visible {
   background-color: #e5e5e5;
 }
 
