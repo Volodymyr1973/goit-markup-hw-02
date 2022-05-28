@@ -181,6 +181,11 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.projects-link:hover,
+.prijects-link:focus {
+  background-color: var(--accent-color);
+}
+
 /* -----Наша команда----- */
 
 .team {
@@ -295,18 +300,15 @@ ul {
   border-radius: 4px;
 }
 
-.portfolio-lists {
-}
-.lists {
-}
 .portfolio-item {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-.portfolio-link {
+
+.portfolio-item:hover {
+  background-color: #e5e5e5;
 }
-.link {
-}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
@@ -314,6 +316,7 @@ ul {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
+
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
