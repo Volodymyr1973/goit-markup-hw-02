@@ -14,8 +14,7 @@ body {
   color: var(--primary-text-color);
 }
 
-h2,
-h3 {
+.title {
   color: var(--title-text-color);
 }
 
@@ -32,6 +31,7 @@ h3 {
 .btn {
   font-family: 'Roboto';
   text-align: center;
+  cursor: pointer;
 }
 
 /* -----Хедер----- */
@@ -122,6 +122,7 @@ h3 {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /* -----:hover есть, но не активный в проекте----- */
@@ -159,7 +160,6 @@ h3 {
 }
 
 .work-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -167,7 +167,6 @@ h3 {
   color: var(--title-text-color);
 }
 .work-position {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -181,7 +180,6 @@ h3 {
 }
 
 .projects-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -200,7 +198,6 @@ h3 {
 }
 
 .team-mean-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
@@ -210,8 +207,7 @@ h3 {
 
 .team-item {
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -224,7 +220,6 @@ h3 {
   color: var(--title-text-color);
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -260,7 +255,6 @@ h3 {
 
 .address-text {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -268,7 +262,6 @@ h3 {
 }
 
 .address-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -298,8 +291,7 @@ h3 {
 .btn:hover {
   color: #ffffff;
   background: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -314,7 +306,6 @@ h3 {
 }
 
 .portfolio-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -322,7 +313,6 @@ h3 {
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
