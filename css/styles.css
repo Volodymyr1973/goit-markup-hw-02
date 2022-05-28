@@ -19,10 +19,6 @@ h3 {
   color: var(--title-text-color);
 }
 
-ul {
-  padding: 0;
-}
-
 .link {
   text-decoration: none;
   font-style: normal;
@@ -313,7 +309,7 @@ ul {
 }
 
 .portfolio-item:hover,
-.portfolio-item:focus-visible {
+.portfolio-item:focus {
   background-color: #e5e5e5;
 }
 
