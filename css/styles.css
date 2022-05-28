@@ -4,11 +4,10 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-bg-color: #e5e5e5;
-  --main-font: 'Roboto' sans-serif;
+  --main-font: 'Roboto', sans-serif;
 }
 
 body {
-  background-color: var(--primary-bg-color);
   font-family: var(--main-font);
   font-style: normal;
   color: var(--primary-text-color);
@@ -30,7 +29,6 @@ body {
 
 .btn {
   font-family: 'Roboto';
-  text-align: center;
   cursor: pointer;
 }
 
@@ -112,6 +110,8 @@ body {
 }
 
 .hero-btn {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -129,14 +129,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--title-text-color);
-  background: var(--primary-bg-color);
+  background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
